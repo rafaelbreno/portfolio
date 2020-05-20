@@ -1,0 +1,85 @@
+/*
+    font-family: 'Homenaje', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+*/
+body {
+    overflow-x: hidden;
+}
+/* Board */
+.board-1 {
+    z-index: -999;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    width: 101vw;
+    background-color: rgb(171, 201, 38);
+}
+.board-2 {
+    z-index: 0;
+    width: 101vw;
+    background-color: rgb(0, 149, 194);
+}
+.board-3 {
+    z-index: 0;
+    width: 101vw;
+    background: rgb(142,94,0);
+    background: linear-gradient(0deg, rgba(142,94,0,1) 32%, rgba(0,149,194,1) 100%);
+}
+/* Code Piece */
+.code-piece-1 {
+    font-weight: bold;
+    color: aliceblue;
+}
+.code-piece-2 {
+    font-weight: bold;
+    color: blueviolet;
+}
+.code-piece-3 {
+    font-weight: bold;
+    color: aliceblue;
+    margin-left: 10em;
+}
+/* Title */
+.sub-title-top {
+    font-weight: bold;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+}
+.sub-title-bottom {
+    text-align: left;
+    margin-left: 35%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+}
+.title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 8em;
+}
+/* Minus Margin Bottom */
+.mmb-02 {
+    margin-bottom: -0.2em;
+}
+.mmb-05 {
+    margin-bottom: -0.5em;
+}
+.mmb-1 {
+    margin-bottom: -1em;
+}
+.mmb-2 {
+    margin-bottom: -2em;
+}
+.mmb-25 {
+    margin-bottom: -2.5em;
+}
+.mmb-3 {
+    margin-bottom: -3em;
+}
+.mmb-4 {
+    margin-bottom: -4em;
+}
